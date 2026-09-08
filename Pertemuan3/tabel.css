@@ -1,1 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #34495e;
+}
+
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #dbeafe, #eef2ff);
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+header p {
+    display: inline-block;
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: #5b6f8f;
+    font-weight: bold;
+}
+
+nav {
+padding: 15px;
+text-align: center;
+background-color: #adceeb;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 20px;
+font-weight: bold;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.container h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: #34495e;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #496a8f;
+    color: white;
+    padding: 16px;
+    font-size: 17px;
+}
+
+td {
+    padding: 18px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    line-height: 1.8;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+td i {
+    color: #7b8794;
+    font-size: 14px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b5b5b5;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b5b5b5;
+}
+
+.selasa,
+.rabu,
+.kamis,
+.jumat {
+    font-weight: bold;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+tbody tr:hover {
+    background-color: #f7f9fc;
+    transition: 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #6b7c93;
+    font-size: 14px;
+}
